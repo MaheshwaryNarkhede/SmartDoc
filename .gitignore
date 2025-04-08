@@ -1,1 +1,47 @@
-venv
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env/
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+*.env
+
+# VS Code / PyCharm / IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+
+# PDF files (uploaded/processed)
+*.pdf
+uploads/
+processed/
+
+# Docker volumes or data
+data/
+docker-compose.override.yml
+
+
+ollama/models/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+qdrant_storage/
